@@ -1,0 +1,150 @@
+html{
+overflow-y: scroll;
+}
+body{
+font-family:'CI';
+background-color:#FFE4C4;
+background-image: url("image/background/winter_2017.gif");
+margin:0px;
+}
+table{
+margin-top:0px;
+border:0px;
+background-color:#FFFFFF;
+}
+a.menubtn{
+color: #000000;
+font-size:110%;
+margin-right: 10px;
+}
+a.menubtn:last-child {
+margin-right: 0; /* Ōゾ]Ȃ */
+}
+a.menubtn2{
+font-size:110%;
+color: #000000;
+text-decoration:none;
+}
+a.titlelogo{
+color: #000000;
+text-decoration:none;
+}
+a.resultlink{
+color: #000000;
+}
+a.record_man{
+background: #0000FF; /* wiF */
+color: #fff; /* F */
+font-size:150%;
+padding: 16px 40px; /* ㉺̗]AE̗] */
+text-decoration: none; /* ftHgœ郊N̉ */
+border-radius: 30px; /* pۂ */
+margin-right:50px;
+}
+a.record_woman {
+background: salmon; /* wiF */
+color: #fff; /* F */
+font-size:150%;
+padding: 16px 40px; /* ㉺̗]AE̗] */
+text-decoration: none; /* ftHgœ郊N̉ */
+border-radius: 30px; /* pۂ */
+}
+h1{
+font-size:200%;
+line-height:1;
+text-align:left;
+vertical-align:middle;
+margin-top:20px;
+margin-left:10px;
+}
+h2 {
+padding-left:10px;
+margin-left:10px;
+margin-top:10px;
+color: #440000;
+width:100%;
+text-shadow: 0 0 5px white;
+border-left: solid 10px #800000;
+background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+background: repeating-linear-gradient(-45deg, #FFC7AF, #FFFFAA 3px,#FFC7AF 3px, #FFFFAA 7px);
+}
+#toiawase{
+width:90%;
+margin-left:10px;
+margin-top:15px;
+margin-bottom:15px;
+padding-top:10px;
+padding-left:10px;
+padding-bottom:10px;
+}
+#topics{
+width:90%;
+margin-left:10px;
+margin-top:15px;
+margin-bottom:15px;
+padding-top:10px;
+padding-left:10px;
+padding-bottom:10px;
+border-left:10px double #D2691E;
+}
+
+
+#topics2{
+	margin-right:20px;
+}
+
+#topics2 a{
+	margin-left:20px;
+}
+
+
+
+#topics3{
+width:100%;
+margin-left:10px;
+margin-top:15px;
+margin-bottom:15px;
+padding-top:10px;
+padding-left:10px;
+padding-bottom:10px;
+font-size:120%;
+}
+h3{
+margin-top:-5px;
+}
+#pagetop{
+text-align:right;
+margin-bottom:30px;
+}
+ul{
+list-style-type:none;
+vertical-align : top;
+}
+ul.menu{
+line-height:3em;
+}
+ul.result{
+line-height:2em;
+}
+ul.link{
+margin-top:50px;
+line-height:1;
+}
+
+/* 本文部分の横幅拡張 */
+.content {
+    width: 85%;
+    margin-left: 200px; /* メニュー幅に合わせて調整 */
+}
+
+/* 本文幅に合わせて画像を拡大可変に */
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+#pic {
+  background-size: 1000px auto;  /* 画像は1000px幅のまま */
+  background-repeat: no-repeat; /* 繰り返しなし */
+  background-position: center center;  /* 中央寄せ */
+}
+
